@@ -1,0 +1,50 @@
+{
+	"LocalFileDir": "C:\\Users\\KIDS Lab 2\\Desktop\\Asset-Self-Reporting-Tool-for-SnipeIT-main\\Asset-Self-Reporting-Tool-for-SnipeIT-main\\logs",
+	"LogFileDir": "C:\\Users\\KIDS Lab 2\\Desktop\\Asset-Self-Reporting-Tool-for-SnipeIT-main\\Asset-Self-Reporting-Tool-for-SnipeIT-main\\logs",
+	"RecordFileDir": "C:\\Users\\KIDS Lab 2\\Desktop\\Asset-Self-Reporting-Tool-for-SnipeIT-main\\Asset-Self-Reporting-Tool-for-SnipeIT-main\\logs",
+
+	"EmailParams": {
+		"From": "DisplayName <email@domain.com>",
+		"To": "",
+		"SMTPServer": "",
+		"Port": ""
+	},
+  
+	"DellApi": {
+		"Key": "",
+		"Secret": ""
+	},
+
+    "DellBios": {
+        "KeyFile": "\\\\fs01.criminology.fsu.edu\\it\\scripts\\assetselfreporting\\AES.key",
+        "OldPwdFile": "\\\\path\\to\\OldBiosPwd.txt",
+        "NewPwdFile": "\\\\path\\to\\NewBiosPwd.txt"
+    },
+
+	"Snipe": {
+		"Url": "https://ams.karunya.edu",
+		"Token": "",
+		"DefStatusID": 2,
+		"WorkstationCatID": 12,
+		"ServerCatID": 8,
+		"FieldSetID": 3,
+		"Location": 6,
+		"_snipeit_mac_address_1": "_snipeit_mac_address_7",
+		"_snipeit_cpu_1": "_snipeit_cpu_8",
+		"field_Ram": "_snipeit_ram_9",
+		"field_OperatingSystem": "_snipeit_os_10",
+		"field_IpAddress": "_snipeit_ip_address_6",
+		"field_Bios": "_snipeit_bios_12",
+		"field_Graphics": "_snipeit_graphics_13",
+		"field_network_adapters": "_snipeit_network_adapters_19",
+		"field_internal_media": "_snipeit_internal_media_15",
+		"field_boot_drive": "_snipeit_boot_drive_14"
+	},
+
+	"DailyPowerOnList": [
+		"KGB-107A",
+		"KGB-112",
+		"KGB-415",
+		"KGB-409"
+	]
+}
