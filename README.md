@@ -1,7 +1,7 @@
 # KITS_AMS_SNIPEAGENT
 
 chocolateyInstall.ps1:
-'''
+```
 $packageName = 'snipeagent-lab8'
 $url = 'http://192.168.3.15:88/snipeagent-lab8.zip' #Public Web Directory 
 $zipDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -26,4 +26,4 @@ if ($?) {
 } else {
   Write-Error "Checksum verification failed. The downloaded file may be corrupted."
 }
-'''
+```
